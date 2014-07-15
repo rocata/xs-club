@@ -1,6 +1,7 @@
 var metas = document.getElementsByTagName('meta');
 var i;
 if (navigator.userAgent.match(/iPhone/i)) {
+    //testlaslal
   for (i=0; i<metas.length; i++) {
     if (metas[i].name == "viewport") {
       metas[i].content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
