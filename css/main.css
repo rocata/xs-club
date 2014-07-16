@@ -1,14 +1,43 @@
 html {
-	background: url(../images/img_background.jpg) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	/*poza cu mainile in aer*/
+    /*background: url(../images/dots.png), rgba(0, 0, 0, 1) url(../images/img_background.jpg);*/
+    
+    /*poza cu pizda*/
+    background: url(../images/dots.png), rgba(0, 0, 0, 1) url(../images/background-body.jpg);
+    
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed, fixed;
+    background-position-x:  center, center;
+    background-position-y:  center, center;
+    
+    
+    
+    -webkit-background-size:  cover, contain;
+	-moz-background-size: cover, contain;
+	-o-background-size: cover, contain;
+	background-size:  cover, contain;
 }
 
 body {
+    background: transparent;
 	padding-top: 60px;
-    background: rgba(0,0,0,0.3);
+    padding-bottom: 60px;
+  
+}
+.jumbotron {
+    background: rgba(255, 0, 0, 0.3);
+
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: Gold;
+    color: Gold;
+    
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.opac_background {
+    background: rgba(255, 255, 255, 0.4);
 }
 
 /* OLD */
