@@ -32,6 +32,13 @@ html {
 	background-size:  cover, contain;
 }
 
+div.navbar-fixed-bottom , div.navbar-fixed-bottom > *{
+    margin: 0px;
+    padding: 0px;
+    min-height: 30px;
+    height: 30px;
+    line-height: 0px;
+}
 body {
     background: transparent;
 	padding-top: 60px;
