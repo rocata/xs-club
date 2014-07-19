@@ -1,12 +1,15 @@
 html {
 	/*poza cu mainile in aer*/
-    /*background: url(../images/dots.png), rgba(0, 0, 0, 1) url(../images/img_background.jpg);*/
+    -webkit-background: url(../images/dots.png), rgba(0, 0, 0, 1) url(../images/img_background.jpg);
+    -moz-background: url(../images/dots.png), rgba(0, 0, 0, 1) url(../images/img_background.jpg);
+    -o-background: url(../images/dots.png), rgba(0, 0, 0, 1) url(../images/img_background.jpg);
+    background: url(../images/dots.png), rgba(0, 0, 0, 1) url(../images/img_background.jpg);
     
     /*poza cu pizda*/
-    -webkit-background: url(../images/dots.png), rgba(0, 0, 0, 1) url(../images/background-body.jpg);
+    /*-webkit-background: url(../images/dots.png), rgba(0, 0, 0, 1) url(../images/background-body.jpg);
     -moz-background: url(../images/dots.png), rgba(0, 0, 0, 1) url(../images/background-body.jpg);
     -o-background: url(../images/dots.png), rgba(0, 0, 0, 1) url(../images/background-body.jpg);
-    background: url(../images/dots.png), rgba(0, 0, 0, 1) url(../images/background-body.jpg);
+    background: url(../images/dots.png), rgba(0, 0, 0, 1) url(../images/background-body.jpg);*/
     
     -webkit-background-repeat: no-repeat, no-repeat;
     -moz-background-repeat: no-repeat, no-repeat;
