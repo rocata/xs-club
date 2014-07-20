@@ -6,8 +6,6 @@ html {
     background:  url(../images/dots.png), url(../images/img_background.jpg);
     
     
-    
-    
     /*poza cu pizda*/
     /*-webkit-background: url(../images/dots.png), url(../images/background-body.jpg);
     -moz-background: url(../images/dots.png), url(../images/background-body.jpg);
@@ -81,7 +79,7 @@ nav.navbar-fixed-top {
     background: rgba(0, 0, 0, 0.8);
 
     border-bottom-left-radius: 100% 100px;
-    border-bottom-right-radius: 20% 100%;
+    border-bottom-right-radius: 15% 100%;
 }
 
 /*
@@ -94,27 +92,25 @@ nav.navbar-fixed-top ul.navbar-right li {
 }
 
 
-
-
 /*
 *   Contact container
 */
 
 div.contact_container {
     margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
     
-    
-    background: rgba(100, 100, 100, 0.7);
+    background: rgba(255, 255, 255, 0.7);
     background: rgba(0, 0, 0, 0.6);
     
     
     border-color: black;
     border-width: 2px;
+ 
+    
     color: White;
     font-size: medium;
-    
-    
-    
 }
 
 div.contact_container h1 {
@@ -148,20 +144,14 @@ div.social_media {
     margin-top: 10px;
 }
 
-div.c-wrapper {
-    width: 80%; /* for example */
-    margin: auto;
+/*
+*   Contact form
+*/
+
+div.contact_container form.contact_form {
+    margin-top: 20px;
 }
-    
-.item img {
-    width:100%;
-}
-.carousel-inner > .item > img, 
-.carousel-inner > .item > a > img{
-max-height: 400px;
-width: 100%; /* use this, or not */
-margin: auto;
-}
+
 
 
 /*
@@ -169,9 +159,12 @@ margin: auto;
 */
 div.contact_container div.google_map {
     margin-top: 15px;
-    height: 400px;    
+    height: 400px;
 }
 
+/*
+*   Carousel about page    
+*/
 div.carousel_container {
     margin-top: 40px;
     
@@ -190,4 +183,5 @@ div.carousel_container {
 div.carousel{
     
     margin: 0 auto;
+
 }
