@@ -172,3 +172,22 @@ div.contact_container div.google_map {
     height: 400px;    
 }
 
+div.carousel_container {
+    margin-top: 40px;
+    
+    
+    background: rgba(100, 100, 100, 0.7);
+    background: rgba(0, 0, 0, 0.6);
+    
+    padding: 0;
+    border-color: black;
+    border-width: 2px;
+    color: White;
+    font-size: medium;
+    
+}
+
+div.carousel{
+    
+    margin: 0 auto;
+}
