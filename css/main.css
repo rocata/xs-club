@@ -77,33 +77,71 @@ img.event {
 }
 
 
+nav.navbar-fixed-top {
+    background: rgba(0, 0, 0, 0.8);
+
+    border-bottom-left-radius: 100% 100px;
+    border-bottom-right-radius: 20% 100%;
+}
+
+/*
+*   Top navbar fonts
+*/
+
+nav.navbar-fixed-top ul.navbar-right li {
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+}
+
+
+
+
 /*
 *   Contact container
 */
 
 div.contact_container {
     margin-top: 40px;
-    background: rgba(230, 255, 255, 0.8);
-    color: black;
+    
+    
+    background: rgba(100, 100, 100, 0.7);
+    background: rgba(0, 0, 0, 0.6);
+    
+    
+    border-color: black;
+    border-width: 2px;
+    color: White;
     font-size: medium;
+    
+    
+    
 }
 
+div.contact_container h1 {
+    color:  Orange;
+    font-family: 'Montserrat', sans-serif;
 
+}
 div.contact_container div.left {
+    
 }
 div.contact_container div.right {
+    border-left: solid White 2.5px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 85%;
 }
 
 div.contact_container div.right span.left_border {
-    border-left: solid Gray 2.5px;
-    padding-left: 5px;
     display: block;
 
     margin-bottom: 10px;
 }
 div.contact_container div.right span label {
-    color:  Red;
+    color:  Orange;
     display: block;
+    font-size: 15px;
 }
 
 div.social_media {
@@ -124,3 +162,13 @@ max-height: 400px;
 width: 100%; /* use this, or not */
 margin: auto;
 }
+
+
+/*
+*   Google Map
+*/
+div.contact_container div.google_map {
+    margin-top: 15px;
+    height: 400px;    
+}
+
