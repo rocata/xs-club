@@ -109,3 +109,18 @@ div.contact_container div.right span label {
 div.social_media {
     margin-top: 10px;
 }
+
+div.c-wrapper {
+    width: 80%; /* for example */
+    margin: auto;
+}
+    
+.item img {
+    width:100%;
+}
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+max-height: 400px;
+width: 100%; /* use this, or not */
+margin: auto;
+}
