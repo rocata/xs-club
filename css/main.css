@@ -87,7 +87,7 @@ nav.navbar-fixed-top {
 */
 
 nav.navbar-fixed-top ul.navbar-right li {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Fugaz One', sans-serif;
     font-size: 25px;
 }
 
@@ -115,7 +115,7 @@ div.contact_container {
 
 div.contact_container h1 {
     color:  Orange;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Audiowide', sans-serif;
 
 }
 div.contact_container div.left {
@@ -138,6 +138,7 @@ div.contact_container div.right span label {
     color:  Orange;
     display: block;
     font-size: 15px;
+    font-family: 'Audiowide', sans-serif;
 }
 
 div.social_media {
