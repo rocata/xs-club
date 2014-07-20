@@ -76,6 +76,17 @@ img.event {
     opacity: 0.8;
 }
 
+/*
+*   Top navbar fonts
+*/
+
+nav.navbar-fixed-top ul.navbar-right li {
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+}
+
+
+
 
 /*
 *   Contact container
@@ -83,15 +94,26 @@ img.event {
 
 div.contact_container {
     margin-top: 40px;
-    background: rgba(230, 255, 255, 0.8);
+    background: rgba(230, 255, 255, 0.5);
     color: black;
     font-size: medium;
+    
+    
+    
 }
 
+div.contact_container h1 {
+    font-family: 'Montserrat', sans-serif;
 
+}
 div.contact_container div.left {
+    
 }
 div.contact_container div.right {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 85%;
 }
 
 div.contact_container div.right span.left_border {
