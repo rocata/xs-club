@@ -42,7 +42,7 @@ div.navbar-fixed-bottom , div.navbar-fixed-bottom > *{
 }
 body {
     background: transparent;
-	padding-top: 60px;
+	padding-top: 90px;
     padding-bottom: 60px;
   
 }
@@ -61,25 +61,39 @@ body {
 .opac_background {
     background: rgba(255, 255, 255, 0.4);
 }
-a.navbar-brand {
-    padding-top: 0px;
-}
-img.navbar-brand-logo {
-    width: 100px;
-    height: 150px;
-    opacity: 0.4;
-}
+
 
 img.event {
     opacity: 0.8;
 }
 
 
+/*
+*  FIXED NAVBAR TOP
+*/
 nav.navbar-fixed-top {
     background: rgba(0, 0, 0, 0.8);
+    margin-top: 30px;
 
-    border-bottom-left-radius: 100% 100px;
-    border-bottom-right-radius: 15% 100%;
+    /*border-bottom-left-radius: 100% 100px;
+    border-bottom-right-radius: 15% 100%;*/
+    
+     position: absolute;
+
+}
+
+
+/*
+*   Navbar brand ( LOGO )
+*/
+img.navbar-brand-logo {
+    margin-top: -25px;
+    width: 130px;
+    opacity: 0.8;
+    
+}
+a.navbar-brand {
+    padding-top: 0px;
 }
 
 /*
@@ -96,10 +110,11 @@ nav.navbar-fixed-top ul.navbar-right li {
 *   Contact container
 */
 
-div.contact_container {
+div.contact_container { 
     margin-top: 40px;
     margin-left: 10px;
     margin-right: 10px;
+    
     
     background: rgba(255, 255, 255, 0.7);
     background: rgba(0, 0, 0, 0.6);
@@ -160,6 +175,7 @@ div.contact_container form.contact_form {
 */
 div.contact_container div.google_map {
     margin-top: 15px;
+    width: 50%;
     height: 400px;
 }
 
