@@ -33,52 +33,32 @@ html {
 	background-size:  cover, cover;
 }
 
-div.navbar-fixed-bottom , div.navbar-fixed-bottom > *{
-    margin: 0px;
-    padding: 0px;
-    min-height: 30px;
-    height: 30px;
-    line-height: 0px;
-}
 body {
     background: transparent;
 	padding-top: 90px;
     padding-bottom: 60px;
   
 }
-.jumbotron {
-    background: rgba(255, 0, 0, 0.3);
 
-
-    border-width: 2px;
-    border-style: solid;
-    border-color: Gold;
-    color: Gold;
-    
-    padding-bottom: 5px;
-    padding-top: 5px;
-}
-.opac_background {
-    background: rgba(255, 255, 255, 0.4);
-}
-
-
+/*
+*   LANDING PAGE POSTER    
+*/
 img.event {
     opacity: 0.8;
 }
 
 
 /*
-*  FIXED NAVBAR TOP
+*  NAVBAR TOP
 */
 nav.navbar-fixed-top {
     background: rgba(0, 0, 0, 0.8);
     margin-top: 30px;
 
-    /*border-bottom-left-radius: 100% 100px;
-    border-bottom-right-radius: 15% 100%;*/
-    
-     position: absolute;
+    /*  TODO:
+            maybe we can get a NOT fixed navbar using bootstrap, not by changeing its position
+        */
+    position: absolute;
 
 }
 
@@ -99,17 +79,26 @@ a.navbar-brand {
 /*
 *   Top navbar fonts
 */
-
 nav.navbar-fixed-top ul.navbar-right li {
     font-family: 'Gruppo', sans-serif;
     font-size: 25px;
+}
+
+/*
+*   BOTTOM NAVBAR
+*/
+div.navbar-fixed-bottom , div.navbar-fixed-bottom > *{
+    margin: 0px;
+    padding: 0px;
+    min-height: 30px;
+    height: 30px;
+    line-height: 0px;
 }
 
 
 /*
 *   Contact container
 */
-
 div.contact_container { 
     margin-top: 40px;
     margin-left: 10px;
@@ -163,7 +152,6 @@ div.social_media {
 /*
 *   Contact form
 */
-
 div.contact_container form.contact_form {
     margin-top: 20px;
 }
