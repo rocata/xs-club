@@ -52,46 +52,46 @@
                 <div class="row">
                     <div class="col-xs-8 col-xs-offset-2 contact_container well well-lg">
                         <!--LEFT SIDE-->
-                        <div class="col-md-8 col-xs-12 left">
+                        <div class="col-md-8 col-xs-12 left row">
                             <h1>Contact us</h1>
-                            <form class="col-md-12 contact_form" action="php/sendmail.php" method="POST" name="send">
-                                <div class="col-xs-12 row">
-                                    <label class="col-sm-3 col-xs-12 col-sm-offset-0 control-label input-sm" for="formGroupInputSmall">Name:</label>
-                                    <div class="col-sm-9 col-xs-12">
-                                        <input class="form-control input-sm" type="text" id="formGroupInputSmall" placeholder="Your name" name="name">
-                                    </div>
+                            <form class="col-md-12 contact_form row" action="php/sendmail.php" method="POST" name="send">
+                                <!-- NAME -->
+                                <label class="col-sm-3 col-xs-12 control-label input-sm clearfix" for="formGroupInputSmall">Name:</label>
+                                <div class="col-sm-9 col-xs-12">
+                                    <input class="form-control input-sm" type="text" id="formGroupInputSmall" placeholder="Your name" name="name">
+                                </div>
+                                <div class="clearfix"></div>
+
+                                <!-- EMAIL -->
+                                <label class="col-sm-3 col-xs-12 control-label input-sm" for="formGroupInputSmall">Email:</label>
+                                <div class="clearfix col-sm-9 col-xs-12">
+                                    <input class="form-control input-sm" type="email" id="formGroupInputSmall" placeholder="Your e-mail address" name="email">
+                                </div>
+                                <div class="clearfix"></div>
+
+                                <!-- PHONE -->
+                                <label class="col-sm-3 col-xs-12 control-label input-sm" for="formGroupInputSmall">Phone:</label>
+                                <div class="col-sm-9 col-xs-12">
+                                    <input class="form-control input-sm" type="text" id="formGroupInputSmall" placeholder="Your phone number" name="phone">
+                                </div>
+                                <div class="clearfix"></div>
+
+                                <!-- MESSAGE -->
+                                <label class="col-sm-3 col-xs-12 control-label input-sm" for="formGroupInputSmall">Message:</label>
+                                <div class="col-sm-9 col-xs-12">
+                                    <textarea class="form-control input-sm" rows="10" id="formGroupInputSmall" placeholder="What do you wanna tell us?" name="message"></textarea>
                                 </div>
 
-                                <div class="col-xs-12 row">
-                                    <label class="col-sm-3 col-xs-12 control-label input-sm" for="formGroupInputSmall">Email:</label>
-                                    <div class="col-sm-9 col-xs-12">
-                                        <input class="form-control input-sm" type="email" id="formGroupInputSmall" placeholder="Your e-mail address" name="email">
-                                    </div>
+                                <!-- NEWSLETTER -->
+                                <div class="col-xs-12">
+                                    <label>
+                                        <input type="checkbox" checked> Subscribe to newsletter
+                                    </label>
                                 </div>
 
-                                <div class="col-xs-12 row">
-                                    <label class="col-sm-3 col-xs-12 control-label input-sm" for="formGroupInputSmall">Phone:</label>
-                                    <div class="col-sm-9 col-xs-12">
-                                        <input class="form-control input-sm" type="text" id="formGroupInputSmall" placeholder="Your phone number" name="phone">
-                                    </div>
-                                </div>
-
-                                <div class="col-xs-12 row">
-                                    <label class="col-sm-3 col-xs-12 control-label input-sm" for="formGroupInputSmall">Message:</label>
-                                    <div class="col-sm-9 col-xs-12">
-                                        <textarea class="form-control input-sm" rows="10" id="formGroupInputSmall" placeholder="What do you wanna tell us?" name="message"></textarea>
-                                    </div>
-                                </div>
-
-                                <div class="col-xs-12 row">
-                                    <div class="col-xs-12">
-                                        <label>
-                                            <input type="checkbox" checked> Subscribe to newsletter
-                                        </label>
-                                    </div>
-                                    <div class="col-xs-12">
-                                        <button type="submit" class="btn btn-default">Send</button>
-                                    </div>
+                                <!-- BUTTON -->
+                                <div class="col-xs-12">
+                                    <button type="submit" class="btn btn-default">Send</button>
                                 </div>
                                 <input type="hidden" name="send">
                             </form>
@@ -120,7 +120,7 @@
                                     Romania <br>
                                 </span class="left_border">
                             </div>
-                            <div class="hidden-md hidden-lg col-xs-8 col-xs-offset-2 top_border">
+                            <div class="hidden-md hidden-lg col-xs-12 col-sm-6 col-sm-offset-3 top_border">
                                 <div class="clearfix"></div>
                                 <span class="">
                                     <label>Email:</label>

@@ -1,3 +1,6 @@
+.test {
+    border: solid White 3px;
+}
 html {
 	/*poza cu mainile in aer*/
     -webkit-background: url(../images/dots.png), url(../images/img_background.jpg);
@@ -139,7 +142,8 @@ div.contact_container div.right div.left_border {
 div.contact_container div.right div.top_border {
     border-top: solid White 2.5px;
     padding-top: 15px;
-    margin-top: 30px;        
+    margin-top: 30px;
+      
 }
 
 div.contact_container div.right span {
