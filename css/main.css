@@ -101,9 +101,6 @@ div.navbar-fixed-bottom , div.navbar-fixed-bottom > *{
 */
 div.contact_container { 
     margin-top: 40px;
-    margin-left: 10px;
-    margin-right: 10px;
-    
     
     background: rgba(255, 255, 255, 0.7);
     background: rgba(0, 0, 0, 0.6);
@@ -125,15 +122,27 @@ div.contact_container h1 {
 div.contact_container div.left {
     
 }
+
+
+
+
 div.contact_container div.right {
-    border-left: solid White 2.5px;
-    
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     font-size: 85%;
 }
+div.contact_container div.right div.left_border {
+    border-left: solid White 2.5px;
+    padding-left: 15px;
+        
+}
+div.contact_container div.right div.top_border {
+    border-top: solid White 2.5px;
+    padding-top: 15px;
+    margin-top: 30px;        
+}
 
-div.contact_container div.right span.left_border {
+div.contact_container div.right span {
     display: block;
 
     margin-bottom: 10px;
